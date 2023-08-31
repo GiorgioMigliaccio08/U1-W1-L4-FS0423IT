@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPICODE - IL BLOG DEI DEVELOPERS</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="logo">
+        <img src="assets/img/logo.svg" width="250" height="60" alt="Logo" />
+
+        <h1>EPICODE - IL BLOG DEI DEVELOPERS</h1>
+        <ul class="prima">
+          <li>HOME</li>
+          <li>ARTICOLI</li>
+          <li>LAVORA CON NOI</li>
+        </ul>
+      </div>
+    </header>
+    <main class="parte1">
+      <div>
+        <h1 class="size">
+          Come creare un <br />
+          template per i post
+        </h1>
+        <p class="colore">
+          <i class="fas fa-pen-square"></i>di Giorgio Migliaccio
+          <i class="fas fa-clock"></i>publicato il 25-<br />10-2020
+        </p>
+        <section>
+          <p>
+            La prima cosa da fare è suddividere in blocchi logici la prima
+            pagina, identificando le parti comuni da applicare a tutte le pagine
+          </p>
+          <p>Le varie aree saranno quindi suddivise in:</p>
+          <ul>
+            <li>
+              Contenuti di intestazione del tag <span>&lt;header&gt; </span>
+            </li>
+
+            <li>
+              Contenuti centrali variabili del tag
+              <span>&lt;main&gt;</span>(corpo principale)
+            </li>
+            <li>
+              Contenuti di fine pagina comuni, da inserire nel tag
+              <span>&lt;footer&gt;</span>
+            </li>
+          </ul>
+          <p>
+            Formattazione del codice<br />
+            Il testo dell'articolo deve essere formattato per identificare tutte
+            le parti da selezionare con i CSS. Perciò i passi saranno:
+          </p>
+          <ol>
+            <li>
+              Progettare il markup assegnando ad ogni specifico testo il tag
+              appropriato
+            </li>
+            <li>
+              Scrivere l'HTML dei tag esterni a quelli interni e dall'alto verso
+              il basso
+            </li>
+            <li>Applicare gli stili CSS</li>
+          </ol>
+          <p>
+            L'applicazione di stili CSS è cresciuta negli anni fino a
+            raggiungere la diffusione pressochè totale.
+          </p>
+        </section>
+        <section>
+          <h3>Diffusione dei CSS</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Anno</th>
+                <th>% di utilizzo</th>
+                <th>Supporto browsers</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2000</td>
+                <td>20%</td>
+                <td>17%</td>
+              </tr>
+              <tr>
+                <td>2002</td>
+                <td>35%</td>
+                <td>22%</td>
+              </tr>
+              <tr>
+                <td>2004</td>
+                <td>45%</td>
+                <td>42%</td>
+              </tr>
+              <tr>
+                <td>2008</td>
+                <td>80%</td>
+                <td>51%</td>
+              </tr>
+              <tr>
+                <td>2012</td>
+                <td>100%</td>
+                <td>76%</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Un test di validazione potrà essere fatto tramite il
+            <a
+              href="https://epicode.com/it/?utm_source=adwords&utm_campaign=Brand&utm_adgroup=brandexact&utm_term=epicode&utm_medium=ppc&hsa_acc=1246633295&hsa_cam=11897141170&hsa_grp=115607542236&hsa_ad=639941169967&hsa_src=g&hsa_tgt=kwd-1083842420863&hsa_kw=epicode&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwrranBhAEEiwAzbhNtTsK7_JSEqt2Jr1dtV2vZXVuqtodsPFuSHyDernrbFX4giJrux5QcBoCb2QQAvD_BwE"
+              alt="Sito Epicode"
+              >tool online</a
+            >
+            dedicato allo scopo. Una volta ottimizzato il tutto , avremo
+            raggiunto il nostro obbiettivo ed essere stati dei veri developers
+            come loro:
+          </p>
+          <iframe
+            width="400"
+            height="300"
+            src="https://www.youtube.com/embed/aBSZVeBRvDY"
+            title="Il lavoro PIÙ RICHIESTO del 2023: il Web Developer 🔥"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section class="quadrato">
+          <h2 class="allineamento">Novità</h2>
+          <p class="allineamento">
+            Vuoi rimanere aggiornato su altre<br />
+            novità del blog? Iscriviti alla<br />
+            nostra newsletter:
+          </p>
+          <form action="elabora_form.php" method="post" class="allineamento">
+            <input type="email" placeholder="Inserisci mail" required />
+            <button type="submit" class="color">iscriviti</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <aside>
+      <h2 class="allineamento">ARTICOLI CORRELATI</h2>
+      <div class="articolo">
+        <a href="#" style="color: rgb(85, 228, 228)">Validare codice html </a>
+        <p><i class="fas fa-tag"></i>Categoria:developers</p>
+        <p><i class="fas fa-calendar-alt"></i>Data: 18/09/2020</p>
+      </div>
+      <br />
+      <div class="articolo">
+        <a href="#" style="color: rgb(85, 228, 228)">correggere la sintassi</a>
+        <p><i class="fas fa-tag"></i>Categoria:developers</p>
+        <p><i class="fas fa-calendar-alt"></i>Data: 16/09/2020</p>
+      </div>
+      <br />
+      <div class="articolo">
+        <a href="#" style="color: rgb(85, 228, 228)">meno Kb nella pagina</a>
+        <p><i class="fas fa-tag"></i>Categoria:ottimizzazione</p>
+        <p><i class="fas fa-calendar-alt"></i>Data: 30/09/2020</p>
+      </div>
+    </aside>
+    <footer class="piedipagina">
+      <h4>Blog Epicode &copy;2023</h4>
+      <address>
+        Testata online di Giorgio Migliaccio , registrata con<br />
+        prot.n.213/2018 - via luigi Enaudi 2- Milano.<br />
+        P.IVA 00112233.
+        <a href="mailto:info@epicode.school" title Contattatemi!!>
+          info@epicode.school
+        </a>
+      </address>
+    </footer>
+  </body>
+</html>
